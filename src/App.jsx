@@ -3,10 +3,13 @@ import './App.css';
 import TodoForm from "./components/TodoForm";
 import TodoList from './components/TodoList';
 import NavBar from './components/NavBar';
-import Contact from './pages/Contact';
 import About from './pages/About';
 import Home from "./pages/Home";
-import { Route, Routes } from "react-router-dom"
+import Contact from "./pages/Contact";
+import { Route, Routes } from "react-router-dom";
+import "./Contact.css";
+
+
 
 
 
@@ -18,11 +21,12 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home/>} />
-          <Route path="/contact" element={<Contact/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/contact"element={<Contact/>} />
         </Routes>
       </div>
       <TodoList />
+      
       
     </div>
      

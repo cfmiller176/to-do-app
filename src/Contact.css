@@ -1,0 +1,26 @@
+.ContactFormContainer {
+    background-color:rgba(20, 159, 255, 1);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 350px;
+    position: fixed;
+    bottom: 0;
+    width: 25%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.FlexContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ContactButton {
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    margin: 8px auto;
+}
