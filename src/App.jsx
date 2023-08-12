@@ -3,6 +3,7 @@ import './App.css';
 import TodoForm from "./components/TodoForm";
 import TodoList from './components/TodoList';
 import NavBar from './components/NavBar';
+import "./Nav.css";
 import About from './About';
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -30,7 +31,7 @@ function App() {
           <Route path="/contact"element={<Contact/>} />
         </Routes>
       </div>
-     {/* <TodoList />  */}
+      <img src="https://cdn.pixabay.com/photo/2023/06/09/19/37/letter-8052497_960_720.png" alt="letters and envelopes" />
       
       
       

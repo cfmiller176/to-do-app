@@ -1,7 +1,8 @@
 .main-paragraph {
-    display: flex;
+    display: block;
     text-align: center;
     justify-content:center;
     width: 100%;
+    font-size: larger;
 }
 

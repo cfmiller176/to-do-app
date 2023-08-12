@@ -1,5 +1,5 @@
 .ContactFormContainer {
-    background-color:rgba(20, 159, 255, 1);
+    background-color:rgb(138, 193, 174); 
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -23,3 +23,7 @@
     margin: 8px auto;
 }
 
+.ContactButton:hover {
+    background-color: rgb(44, 42, 42);
+    color: white;
+}
