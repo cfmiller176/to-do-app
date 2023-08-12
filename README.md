@@ -1,6 +1,12 @@
-# React + Vite
+**ToDo List Manager**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Todo Application
+
+## This is a simple Task Manager for organizational purposes. 
+### In this Task Application you can: 
+-    add a task
+-    remove a task 
+-    edit a task  
 
 Currently, two official plugins are available:
 
