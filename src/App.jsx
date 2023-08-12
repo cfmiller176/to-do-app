@@ -15,21 +15,23 @@ import "./About.css";
 
 
 
+
+
 function App() {
 
   return (
     <div className = "to-do-app">
       <NavBar />
-     
+           
       <div className="container">
-      <img src="./public/images/wood.png " alt="inspirational " />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact"element={<Contact/>} />
         </Routes>
       </div>
-      <TodoList />
+     {/* <TodoList />  */}
+      
       
       
     </div>
